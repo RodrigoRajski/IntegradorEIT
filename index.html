@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Integrador</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <input type="checkbox" id="menu" />
+
+      <nav class="nav-bar">
+        <!-- nav-bar -->
+        <ul class="nav-bar__nav-list">
+          <img
+            src="/public/img/pinguino.png"
+            alt="Electronic"
+            class="nav-bar__logo"/>
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">
+              Inicio</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link"
+              >
+              Alta</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/contacto.html" class="nav-bar__nav-link"
+              >
+              Contacto</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/nosotros.html" class="nav-bar__nav-link">
+              Nosotros</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- nav-bar -->
+      <div class="search-bar"> <img
+        src="/public/img/pinguino.png"
+        alt="Electronic"
+        class="nav-bar__logo"/>
+        <!-- search-bar -->
+        <div class="search-bar__logo-container">
+          Seleccionar Region
+        </div>
+        <form action="" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label">
+            Busqueda
+          </label>
+          <input type="search" class="search-bar__form-search" id="busqueda" />
+          <input type="submit" value="Buscar" class="search-bar__form-submit" />
+        </form>
+        
+        <div class="search-bar__carrito-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 576 512"
+          >
+            <path
+              d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+            />
+          </svg>
+        </div>
+        <div class="menu-toggle">
+          <label for="menu" class="menu-toggle__label">
+            <span class="menu-toggle__top-bread"></span>
+            <span class="menu-toggle__meat"></span>
+            <span class="menu-toggle__bottom-bread"></span>
+          </label>
+        </div>
+      </div>
+      <!-- search-bar -->
+    </header>
+
+    <main>
+      <section class="section-cards">
+        <header class="section-cards__header">
+          <h1>Productos Destacados</h1>
+          <p>Compra hoy, recibilo hoy !</p>
+        </header>
+
+        <div class="cards-container">
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/apple-iphone-11-pro-max.jpg"
+                  alt="IPhone 11 Pro Max"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Iphone 11 pro Max</h2>
+                <div class="card__description">
+                  <p>
+                   Descubre la excelencia tecnológica con el iPhone 11
+                    Pro Max. Este dispositivo insignia combina un diseño elegante.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/apple-iphone-12.jpg"
+                  alt="IPhone 12"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Iphone 11</h2>
+                <div class="card__description">
+                  <p>
+                    Sumérgete en la innovación con el iPhone 11: rendimiento potente y cámara avanzada, tecnología excepcional y diseño sofisticado.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/auriculares-sony.jpg"
+                  alt="Auriculares Sony"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Ariculares Sony</h2>
+                <div class="card__description">
+                  <p>
+                    Sumérgete en un sonido envolvente y cristalino con los auriculares Sony: tecnología innovadora para una experiencia auditiva inigualable.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/camara-canon.jpg"
+                  alt="Camara Canon"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Camara Canon</h2>
+                <div class="card__description">
+                  <p>
+                    Captura momentos con precisión y calidad excepcional usando la cámara Canon: tecnología avanzada para fotografías inigualables.!
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/dji-mavic-2-pro.jpg"
+                  alt="DJI Mavi 2 Pro"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Dron Phantom 4</h2>
+                <div class="card__description">
+                  <p>
+                    Explora horizontes con el dron Phantom 4: vuelo suave y captura aérea de alta calidad.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/modem-motorola.jpg"
+                  alt="Modem Motorola"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Modem TP-Link</h2>
+                <div class="card__description">
+                  <p>
+                    Conectividad confiable y veloz en tu hogar u oficina con el módem TP-Link: rendimiento excepcional y configuración sencilla.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/lavarropas-dh.jpg"
+                  alt="Lavarropas DH"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Lavarropas Philips</h2>
+                <div class="card__description">
+                  <p>
+                    Simplifica tu vida con el lavarropas Philips.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/samsung-tu7000.jpg"
+                  alt="Samsung TU7000"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Televisor Sony</h2>
+                <div class="card__description">
+                  <p>
+                    Sumérgete en el entretenimiento en casa con el televisor Sony: imágenes impresionantes y tecnología innovadora.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/notebook-lenovo.jpg"
+                  alt="Notebook Lenovo"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Notebook Dell</h2>
+                <div class="card__description">
+                  <p>
+                    Potencia tu productividad en cualquier lugar con la laptop Dell: rendimiento superior y diseño elegante.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/drone-dji.jpg"
+                  alt="Drone DJI"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Drone Phantom 5</h2>
+                <div class="card__description">
+                  <p>
+                    Explora horizontes con el dron Phantom 5: vuelo suave y captura aérea de alta calidad.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="img/chromecast-google.jpg"
+                  alt="Chromecast Google"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Chromecast</h2>
+                <div class="card__description">
+                  <p>
+                    Transmite contenido instantáneamente a tu TV con Chromecast: entretenimiento en alta calidad y facilidad.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+        </div>
+        <!-- .cards-container -->
+      </section>
+      <!-- .section-cards -->
+    </main>
+    <!-- main -->
+    <footer class="main-footer">
+      <p class="main-footer__paragraph">
+        *Vendedores Oficiales*
+      </p>
+      <p class="main-footer__paragraph">
+      COPYRIGHT PinguinoTecnologico - 2023 Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

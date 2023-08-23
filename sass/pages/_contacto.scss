@@ -1,0 +1,135 @@
+#menu2 {
+  display: none;
+
+  &:checked + .nav-bar {
+    display: block;
+  }
+}
+
+.menu-toggle2 {
+  display: none;
+  background-color: #232f3e;
+  flex: 0 0 3em;
+  position: relative;
+  cursor: pointer;
+
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232f3e;
+    height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    & {
+      display: block;
+    }
+  }
+}
+.menu-toggle2:hover {
+  border-radius: 5px;
+  border: #fff solid 1px;
+}
+
+.form {
+  padding-top: 125px;
+  background-image: linear-gradient(225deg, #bcff9d 0, #a8ffa0 10%, #93fda4 20%, #79faa8 30%, #59f7ad 40%, #1ef3b3 50%, #00efba 60%, #00ebc2 70%, #00e7cb 80%, #00e3d5 90%, #00e0df 100%);
+  padding-bottom: 50px;
+  color: white;
+}
+.primerfieldset {
+  text-align: center;
+  margin: 20px 200px;
+  background-color: #012f0b;
+  border-radius: 10px;
+  border: 3px solid #000;
+
+  &__legend {
+    text-align: center;
+    background-color: green;
+    color: lime;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid #000;
+  }
+  &__elementobloque {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  &__inputcajas,
+  &__textarea {
+    width: 70%;
+    height: 25px;
+    border-radius: 3px;
+    border: 0.5px solid #4d6d63;
+    outline: none;
+    border-radius: 5px;
+  }
+  &__inputcajas:focus-within,
+  &__textarea:focus-within {
+    border: #000 solid 3px;
+  }
+  &__textarea {
+    height: 100px;
+  }
+  @media (max-width: 850px) {
+    & {
+      margin: 20px 100px;
+    }
+  }
+  @media (max-width: 640px) {
+    & {
+      margin: 20px 50px;
+    }
+  }
+  @media (max-width: 475px) {
+    & {
+      margin: 20px 30px;
+    }
+  }
+  @media (max-width: 400px) {
+    & {
+      margin: 20px 10px;
+    }
+  }
+}
+.contenedorbotones {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: transparent;
+  &__btn1,
+  &__btn2 {
+    background-color: lime;
+    color: #fff;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    font: 900 19px "Bakbak One", cursive, sans-serif;
+    color: #232f3e;
+  }
+  &__btn1:hover,
+  &__btn2:hover {
+    background-color: green;
+    color: #fff;
+  }
+  &__btn1:focus,
+  &__btn2:focus {
+    box-shadow: 8px 8px 8px #fff;
+    transform: translateY(2px) translateX(2px);
+  }
+  @media (max-width: 1110px) {
+    justify-content: center;
+  }
+}
+.contacto-footer {
+  height: 200px;
+  background-color: rgb(6, 117, 71);
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  margin-top: -10px;
+}

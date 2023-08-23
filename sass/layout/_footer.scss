@@ -1,0 +1,41 @@
+.main-footer {
+  height: 100px;
+  background-color: rgb(6, 117, 71);
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+  &__paragraph {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 1235px) {
+    & {
+      height: 220px;
+      padding-top: 15px;
+    }
+    @media (max-width: 912px) {
+      & {
+        height: 230px;
+        font-size: 14px;
+        padding-top: 20px;
+      }
+    }
+    @media (max-width: 600px) {
+      & {
+        height: 240px;
+      }
+    }
+
+    @media (max-width: 530px) {
+      & {
+        font-size: 13px;
+      }
+    }
+    @media (max-width: 392px) {
+      & {
+        height: 300px;
+        font-size: 12px;
+      }
+    }
+  }
+}
